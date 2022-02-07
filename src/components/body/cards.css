@@ -1,0 +1,68 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    height: 35rem;
+    width:100%;
+    padding:0rem 1rem;
+    
+    gap:0.5rem;
+    background-color:rgb(214, 214, 214) ;
+    background: linear-gradient(30deg, rgb(purple,yellow),transparent);
+  
+}
+.cad{
+    width:35%;
+    margin:1rem auto;
+    padding:0 auto;
+    background: linear-gradient(4deg,white,rgb(150, 150, 241), transparent);
+    height:28rem;
+    /* border:2px solid rgb(59, 59, 63); */
+    border-radius: 3rem;
+}
+.cd{
+    /* border:2px solid black; */
+    /* margin:0 auto; */
+    /* padding:0 auto; */
+    height:15rem;
+    width:100%;
+}
+.cad, .cadi{
+/* height:15rem; */
+width:23rem ;
+}
+.cadi{
+    /* width:26.99rem; */
+    height: 15rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    /* margin: 0.2rem; */
+    /* border:3px blue solid; */
+    
+}
+.cardInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:5rem;
+    height:3rem;
+    margin: 0 3.5rem;
+    border-radius: 1rem;
+    background-color:pink ;
+}
+@media screen and (max-width:70rem){
+    .cd{
+        border:3px solid blue;
+        height: 13rem;
+    }
+    .cadi{
+        height: 12rem;
+        width:100%;
+    }
+}

@@ -1,0 +1,10 @@
+#bd {
+  /* height: 70rem; */
+  background-color: thistle;
+  margin: -2rem auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+#bd1 {
+  margin: 2rem;
+}

@@ -1,0 +1,98 @@
+#learn{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    width:100%;
+    height: 100%;
+}
+#learnpic,#l-pic{
+    width:84.3rem; 
+    height: 35rem;
+    /* border:2px solid black; */
+}
+#learnhow{
+    display: flex;
+    flex-direction: column;
+    height:35rem;
+    border:2px solid black;
+    background-color: khaki;
+}
+.l-sec{
+   width:70rem;
+   height:40rem;
+   margin: 01rem auto;
+   line-height: 1.5rem;
+   border: 2px solid blue;
+}
+#contact{
+    display: flex;
+    border:2px brown solid;
+    background-color:aqua;
+    height: 30rem;
+}
+.tact{
+    /* background-color:thistle; */
+    /* border:3px solid green; */
+    width:50rem;
+    margin:1rem ; 
+}
+#l-form{
+    margin: 0.5rem 10rem;
+    /* padding:5rem auto; */
+    /* width:40rem; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+label,#nn,#mail,#mes,#loca{
+    font-weight: bolder;
+    font-family:cursive;
+}
+.puts{
+    width:35rem;
+    height:3rem;
+}
+.messa{
+    height:10rem;
+}
+#sub{
+    width:6.5rem;
+    height:3rem;
+    border-radius: 1rem;
+    margin: 01rem auto;
+    /* padding:5rem auto; */
+}
+@media screen and (max-width:55rem){
+    #learnpic,#l-pic{
+        width:41.5rem; 
+        height: 35rem;
+        /* border:2px solid black; */
+    }
+    .l-sec{
+        width:41.5rem;
+        height:40rem;
+        margin: 01rem auto;
+        line-height: 1.5rem;
+        /* border: 5px solid blue; */
+     }
+     #contact{
+         height:37rem;
+         border:none;
+     }
+     #sub{
+         margin:-0.011rem 0;
+     }
+     #l-form{
+        margin: 0.5rem auto;
+        /* padding:5rem auto; */
+        /* width:40rem; */
+        display: flex;
+        flex-direction: column;
+    }
+    .puts{
+        width:20rem;
+        height:2.5rem;
+    }
+    .messa{
+        height:10rem;
+    }
+}

@@ -1,0 +1,32 @@
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    margin:0;
+    /* border:3px solid brown; */
+}
+#thebutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    margin:0.5rem 0;
+    height:2rem;
+    width:5rem;
+    /* border:2px solid blue; */
+    border:none;
+    border-radius:2rem;
+    background-color: rgb(240, 172, 217);
+}
+
+#thebutton:hover{
+    background-color: black;
+    color:white;
+}
+
+@media screen and (max-width:70rem){
+    #thebutton:hover{
+        
+    }
+}

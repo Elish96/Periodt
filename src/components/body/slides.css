@@ -1,0 +1,9 @@
+#cauro{
+    width:100%;
+}
+
+img{
+    height: 50rem;
+    width: 45rem;
+    object-fit: cover;
+}

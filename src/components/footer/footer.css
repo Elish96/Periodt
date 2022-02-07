@@ -1,0 +1,160 @@
+#ft{
+    height:21rem;
+    color:black;
+    font-size: 1.3rem;
+    list-style-type: none;
+    max-width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    margin:02rem auto; 
+    border:5px solid black;
+}
+#mainft{
+    display:flex;
+    width:60%;
+    height:20rem;
+    border:2px solid yellow; 
+}
+.ft1{
+    display: flex;
+    margin:  2.5rem auto;
+    padding:-4rem auto;
+    gap:2rem;
+    width:20%;
+    /* border:2px solid red; */
+    height:15rem;
+    flex-flow:column;
+    font-size: 1rem;  
+}
+.ft1>li>a{
+    text-decoration: none;
+    color: black;
+}
+.hh{
+    margin:-1rem 0rem;
+    /* padding:1rem; */
+    border-bottom: 4px solid rgb(46, 35, 35);
+}
+.res{
+    width:10rem;
+}
+
+.sh, .help{
+    width:100px;
+}
+.ftl:hover{    
+    background-color: rgb(197, 243, 255);
+    padding:0.3rem 1rem;
+    border-radius: 3rem;
+}
+#social{
+    /* width:15%; */
+    /* background:linear-gradient(45deg, rgb(223, 191, 191), rgb(52, 90, 102)); */
+    /* height:15rem; */
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    border:2px solid yellow;
+    margin:15rem auto;
+}
+
+#social>div>img{
+    /* width:35%; */
+    height:3rem;
+    margin:0 auto;
+    padding: 0 auto;
+}
+.socialIcons{
+    margin: 0 auto;
+    padding: 0 auto;
+    /* height:4rem; */
+    /* width: 20%; */
+    /* border:3px solid tomato; */
+}
+.imgIcon{
+    /* background: black; */
+}
+#logo-container{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    width:20%;
+    height:20rem;
+    border: 2px solid blue;
+}
+
+#ftlogo{
+    /* width:13rem; */
+    /* height:13rem; */
+    /* background:linear-gradient(105deg, blue,rgb(84, 209, 209)); */
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:15rem;
+    height:15rem;
+    /* border:3px solid black; */
+    margin:-1rem ;
+    border-radius: 5%; 
+}
+
+@media screen and (max-width:700px){
+     #ft{
+        margin: 2rem auto;
+        /* border:3px solid red; */
+        border:none;
+        display: block;
+        /* height:15rem; */
+    } 
+     #logo{
+        margin:0rem auto; 
+        /* padding:-3rem;  */
+        /* background: red; */
+        /* border:3px solid blue; */
+        /* width:14rem; */
+
+    }  
+    #mainft{
+        /* background:brown; */
+        /* border: 3px pink solid; */
+        border:none;
+        width:41.5rem;
+        margin:0.7rem auto;
+    }
+    .ft1{
+        width:12rem;
+        border:none;
+    }
+    #logo-container{
+        /* display: flex; */
+        /* flex-wrap:wrap; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        width:100%;
+        border:none;
+        /* height:20rem; */
+       background: rgb(80, 80, 185);
+        /* margin:  -0.5rem auto; */
+        
+    }
+    #ftlogo{
+        display: flex;
+        /* width:15rem; */
+        /* height: 15rem; */
+        justify-content: center;
+        align-items: center;
+        margin: 1rem auto;
+    }
+    #social{
+        display: flex;
+        width:100%;
+        /* background-color:violet; */
+        margin:-02rem auto;
+        border:none;
+    }
+    .socialIcons{
+        margin:0 1rem;
+    }
+} 
